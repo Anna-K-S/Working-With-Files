@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48477e9e-78aa-4db3-8ddd-99da6575d681" name="Changes" comment="Writing and reading text file in Python">
       <change afterPath="$PROJECT_DIR$/binary_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_binary" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="binary_intro" />
+                    <option name="lastUsedInstant" value="1670450494" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1670368984" />
