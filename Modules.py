@@ -2,16 +2,15 @@
 import pickle
 import shelve
 
-honda = (
-    'civik',
-    'grey',
-    '2009',
-    (
-        (1, 'James B'),
-        (2, 'Jane W'),
-        (3, 'Jack S')
-    )
-)
+honda = ('civik',
+         'grey',
+         '2009',
+         (
+             (1, 'James B'),
+             (2, 'Jane W'),
+             (3, 'Jack S')
+         )
+         )
 with open('honda.pickle', 'wb') as honda_file:
     pickle.dump(honda, honda_file)
 # dump метод записывает объект в бинарный файл
@@ -77,16 +76,11 @@ with shelve.open('states') as states:
 
 # Conversion dictionaries into shelve
 university = shelve.open('university_file')
-university['schedules'] = {
-    'monday_schedule': ['Math', 'English', 'English literature'],
-    'tuesday_schedule': ['Physics', 'English', 'Swimming'],
-    'wednesday_schedule': ['Running', 'Math', 'Drawing']}
-university['tutors'] = {
-    'Math': ['J.Brown', 'J.Smith'],
-    'English': ['M.W', 'K.Black']
-
-}
-
+university['schedules'] = {'monday_schedule': ['Math', 'English', 'English literature'],
+                           'tuesday_schedule': ['Physics', 'English', 'Swimming'],
+                           'wednesday_schedule': ['Running', 'Math', 'Drawing']}
+university['tutors'] = {'Math': ['J.Brown', 'J.Smith'],
+                        'English': ['M.W', 'K.Black']}
 print(university['schedules'], ['tuesday_schedule'])
 print(university['tutors'], ['English'])
 university.close()
