@@ -17,7 +17,7 @@ with open('honda.pickle', 'wb') as honda_file:
 
 with open('honda.pickle', 'rb') as honda_read:
     honda_from_file = pickle.load(honda_read)
-# print(honda_from_file)
+print(honda_from_file)
 # 'load' метод для извлечения/считывания из бинарного файла
 model, color, year, owner_list = honda_from_file
 print(model)
