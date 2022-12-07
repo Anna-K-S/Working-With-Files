@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48477e9e-78aa-4db3-8ddd-99da6575d681" name="Changes" comment="Input and output. Reading text. Some methods for reading files">
-      <change afterPath="$PROJECT_DIR$/reading_text_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writing_text.py" afterDir="false" />
+    <list default="true" id="48477e9e-78aa-4db3-8ddd-99da6575d681" name="Changes" comment="Writing and reading text file in Python">
+      <change afterPath="$PROJECT_DIR$/binary_intro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1670365787" />
+                    <option name="lastUsedInstant" value="1670368984" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="writeing_files" />
+                    <option name="lastUsedInstant" value="1670368903" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="input_output" />
@@ -62,7 +65,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.reading_text_files">
+  <component name="RunManager">
     <configuration name="reading_text_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="working_with_files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670365927606</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Writing and reading text file in Python">
+      <created>1670368646667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670368646667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Writing and reading text file in Python">
+      <created>1670368823681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670368823681</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Writing and reading text file in Python">
+      <created>1670368925606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670368925606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Input and output. Reading text. Some methods for reading files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input and output. Reading text. Some methods for reading files" />
+    <MESSAGE value="Writing and reading text file in Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing and reading text file in Python" />
   </component>
 </project>
