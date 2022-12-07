@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48477e9e-78aa-4db3-8ddd-99da6575d681" name="Changes" comment="Input and output. Reading text. Some methods for reading files">
-      <change afterPath="$PROJECT_DIR$/reading_text_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/writing_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1670365787" />
+                    <option name="lastUsedInstant" value="1670450635" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="input_output" />
@@ -62,7 +61,28 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.reading_text_files">
+  <component name="RunManager" selected="Python.Modules">
+    <configuration name="Modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="working_with_files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="reading_text_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="working_with_files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Modules" />
         <item itemvalue="Python.reading_text_files" />
         <item itemvalue="Python.writing_text" />
       </list>
