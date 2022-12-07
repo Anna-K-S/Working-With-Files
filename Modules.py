@@ -1,5 +1,6 @@
 # modul pickle
 import pickle
+import shelve
 
 honda = (
     'civik',
@@ -29,34 +30,29 @@ for owner in owner_list:
 
 # Modul Shelve
 # ключи должны быть только строками(str)
-import shelve
+
 
 with shelve.open('shelve_test') as cars:
     cars['opel'] = 'Germany'
     cars['ford'] = 'USA'
     cars['mazda'] = 'Japan'
     cars['renault'] = 'France'
-print(cars['ford'])
-print(cars['renault'])
-for key in cars:
-    print(key)
-cars = cars.get('jac', 'China')
-print(cars)
-while True:
-    key = input('enter cat name')
-    if key == 'quit':
-        break
-    country = cars.get(key)
-    print(country)
-while True:
-    key = input('enter cat name')
-    if key == 'quit':
-        break
-    if key in cars:
-        country = cars[key]
-        print(country)
-    else:
-        print(" we don't have a " + key)
+    print(cars['ford'])
+    print(cars['renault'])
+    for key in cars:
+        print(key)
+    cars = cars.get('jac', 'China')
+    print(cars)
+
+# while True:
+#     key = input('enter cat name')
+#     if key == 'quit':
+#         break
+#     if key in cars:
+#         country = cars[key]
+#         print(country)
+#     else:
+#         print(" we don't have a " + key)
 
 
 # Первый параметр метода - ключ, по которому следует получить значение,
@@ -71,7 +67,6 @@ with shelve.open('states') as states:
     states['Berlin'] = 'Germany'
 
     states['London'] = 'GB'
-
     for key in states:
         print(key, ' - ', states[key])
 
@@ -83,29 +78,29 @@ with shelve.open('states') as states:
 # Conversion dictionaries into shelve
 university = shelve.open('university_file')
 university['schedules'] = {
-                              'monday_schedule': ['Math', 'English', 'English literature'],
-                              'tuesday_schedule': ['Physics', 'English', 'Swimming'],
-                              'wednesday_schedule': ['Running', 'Math', 'Drawing']}
+    'monday_schedule': ['Math', 'English', 'English literature'],
+    'tuesday_schedule': ['Physics', 'English', 'Swimming'],
+    'wednesday_schedule': ['Running', 'Math', 'Drawing']}
 university['tutors'] = {
     'Math': ['J.Brown', 'J.Smith'],
     'English': ['M.W', 'K.Black']
 
 }
 
-print(university['schedules']['tuesday_schedule'])
-print(university['tutors']['English'])
+print(university['schedules'], ['tuesday_schedule'])
+print(university['tutors'], ['English'])
 university.close()
-university = {
-    'schedules': {
-        'monday_schedule': ['Math', 'English', 'English literature'],
-        'tuesday_schedule': ['Physics', 'English', 'Swimming'],
-        'wednesday_schedule': ['Running', 'Math', 'Drawing']
-
-    },
-    'tutors': {
-        'Math': ['J.Brown', 'J.Smith'],
-        'English': ['M.W', 'K.Black']
-    }
-}
-print(university['schedules']['tuesday_schedule'])
-print(university['tutors']['English'])
+# university = {
+#     'schedules': {
+#         'monday_schedule': ['Math', 'English', 'English literature'],
+#         'tuesday_schedule': ['Physics', 'English', 'Swimming'],
+#         'wednesday_schedule': ['Running', 'Math', 'Drawing']
+#
+#     },
+#     'tutors': {
+#         'Math': ['J.Brown', 'J.Smith'],
+#         'English': ['M.W', 'K.Black']
+#     }
+# }
+# print(university['schedules']['tuesday_schedule'])
+# print(university['tutors']['English'])
