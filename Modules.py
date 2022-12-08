@@ -2,7 +2,7 @@
 import pickle
 import shelve
 
-honda = ('civik',
+honda = ('civic',
          'grey',
          '2009',
          (
@@ -43,16 +43,15 @@ with shelve.open('shelve_test') as cars:
     cars = cars.get('jac', 'China')
     print(cars)
 
-# while True:
-#     key = input('enter cat name')
-#     if key == 'quit':
-#         break
-#     if key in cars:
-#         country = cars[key]
-#         print(country)
-#     else:
-#         print(" we don't have a " + key)
-
+    while True:
+        key = input('enter cat name')
+        if key == 'quit':
+            break
+    # if key in cars:
+    #     country = cars[key]
+    #     print(country)
+    # else:
+    #     print(" we don't have a ", key)
 
 # Первый параметр метода - ключ, по которому следует получить значение,
 # а второй - значение по умолчанию, которое возвращается, если ключ не найден
