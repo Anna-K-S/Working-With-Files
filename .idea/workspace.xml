@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="d33a7f16-3869-41d0-9712-2ec0f27ce9a2" name="Changes" comment=",">
+      <change afterPath="$PROJECT_DIR$/moduless.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/honda.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shelve_test.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shelve_test.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shelve_test.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_file.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_file.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_file.dir" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -62,126 +79,30 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-    <configuration name="Modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="working_with_files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reading_text_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="working_with_files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reading_text_files.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="writing_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="working_with_files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/writing_text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Modules" />
-        <item itemvalue="Python.reading_text_files" />
-        <item itemvalue="Python.writing_text" />
-      </list>
-    </recent_temporary>
-  </project>
-<!--  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" -->
-<!--        DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />-->
-<!--  <component name="TaskManager">-->
-<!--    <task active="true" id="Default" summary="Default task">-->
-<!--      <changelist id="48477e9e-78aa-4db3-8ddd-99da6575d681" name="Changes" comment="" />-->
-<!--      <created>1670363766550</created>-->
-<!--      <option name="number" value="Default" />-->
-<!--      <option name="presentableId" value="Default" />-->
-<!--      <updated>1670363766550</updated>-->
-<!--    </task>-->
-<!--    <task id="LOCAL-00001" summary="Input and output. Reading text. Some methods for reading files">-->
-<!--      <created>1670365729788</created>-->
-<!--      <option name="number" value="00001" />-->
-<!--      <option name="presentableId" value="LOCAL-00001" />-->
-<!--      <option name="project" value="LOCAL" />-->
-<!--      <updated>1670365729788</updated>-->
-<!--    </task>-->
-<!--    <task id="LOCAL-00002" summary="Input and output. Reading text. Some methods for reading files">-->
-<!--      <created>1670365927606</created>-->
-<!--      <option name="number" value="00002" />-->
-<!--      <option name="presentableId" value="LOCAL-00002" />-->
-<!--      <option name="project" value="LOCAL" />-->
-<!--      <updated>1670365927606</updated>-->
-<!--    </task>-->
-<!--    <task id="LOCAL-00003" summary="Writing and reading text fi/le in Python">-->
-<!--      <created>1670458602265</created>-->
-<!--      <option name="number" value="00003" />-->
-<!--      <option name="presentableId" value="LOCAL-00003" />-->
-<!--      <option name="project" value="LOCAL" />-->
-<!--      <updated>1670458602265</updated>-->
-<!--    </task>-->
-<!--    <option name="localTasksCounter" value="4" />-->
-<!--    <servers />-->
-<!--  </component>-->
-<!--  <component name="Vcs.Log.Tabs.Properties">-->
-<!--    <option name="TAB_STATES">-->
-<!--      <map>-->
-<!--        <entry key="MAIN">-->
-<!--          <value>-->
-<!--            <State />-->
-<!--          </value>-->
-<!--        </entry>-->
-<!--      </map>-->
-<!--    </option>-->
-<!--  </component>-->
-<!--  <component name="VcsManagerConfiguration">-->
-<!--    <MESSAGE value="Input and output. Reading text. Some methods for reading files" />-->
-<!--    <MESSAGE value="Writing and reading text fi/le in Python" />-->
-<!--    <MESSAGE value="Writing and reading texnnt fi/le in Python" />-->
-<!--    <option name="LAST_COMMIT_MESSAGE" value="Writing and reading texnnt fi/le in Python" />-->
-<!--  </component>-->
-<!--</project>-->
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary=",">
+      <created>1670459689028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670459689028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="," />
+    <option name="LAST_COMMIT_MESSAGE" value="," />
+  </component>
+</project>
